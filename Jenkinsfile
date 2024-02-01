@@ -4,7 +4,7 @@ pipeline {
     stage('copiar') {
       steps {
         sh '''echo "copiando";
-
+        cp -r ./crud /www;
 
 
 
